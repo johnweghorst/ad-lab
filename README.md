@@ -7,4 +7,4 @@ Wanting to expand my knowledge of Windows Server and Active Directory environmen
 # Operating Systems Used
 * Windows Server 2019
 * Windows 10
-* 
+
