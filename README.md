@@ -50,8 +50,6 @@ Under ‘General”, go to Features and turn on bidirectional to allow copy/past
 
 <img width="975" height="685" alt="image" src="https://github.com/user-attachments/assets/5e09104b-0b7b-4a5d-b5ae-a7eca7068cae" />
 
-<img width="975" height="685" alt="image" src="https://github.com/user-attachments/assets/547ed835-97f7-49a1-81be-e38813d5103a" />
-
 * After install, we have to set our server as a Domain Controller. Click the notification flag at the top of the main screen of Server Manager and click “Promote this server to a domain controller. Choose Add New Forest, then type what ever you want to name your domain. I have just chosen ‘mydomain.com’. Continue with Next and enter a password, do not delegate it as a DNS server and proceed with install. I left everything else default.
 
 <img width="975" height="714" alt="image" src="https://github.com/user-attachments/assets/673dc12e-d10c-408b-9ef8-4edf46ca8e30" />
