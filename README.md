@@ -64,7 +64,10 @@ Under ‘General”, go to Features and turn on bidirectional to allow copy/past
 <img width="692" height="588" alt="image" src="https://github.com/user-attachments/assets/3109cd6d-9e23-4b24-81a6-37eb70afeb88" />
 <img width="813" height="495" alt="image" src="https://github.com/user-attachments/assets/c28a94f0-7b9a-4282-a816-16a19a944058" />
 
-* We will add this user to the Admin group. Right click on it and select Properties, then select the Member Of tab and add the user to Domain Admins. Now we can test the account we just made by logging out of the default Admin account and into it. 
+* We will add this user to the Admin group. Right click on it and select Properties, then select the Member Of tab and add the user to Domain Admins. Now we can test the account we just made by logging out of the default Admin account and into it.
+
+<img width="507" height="563" alt="image" src="https://github.com/user-attachments/assets/2358c005-5d7f-4d64-ad8b-c9f0c9d38a8a" />
+
 * Next, we’ll set up Remote Access so our client machine on our internal network can access the internet through our DC acting as a default gateway. Add Roles and Features > Remote Access. Choose both of the first options.
 
 <img width="888" height="645" alt="image" src="https://github.com/user-attachments/assets/7e17b2d6-97ac-42ef-a4c4-24deb69f29ac" />
