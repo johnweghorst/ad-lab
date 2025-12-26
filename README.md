@@ -13,7 +13,7 @@ Wanting to expand my knowledge of Windows Server and Active Directory environmen
 # Software and Utilities Used
 * Oracle VirtualBox
 * PowerShell
-# Operating Systems Used
+# Operating Systems Used and Tools Used
 * Windows Server 2019
 * Windows 10
 * PowerShell (script from: https://github.com/joshmadakor1/AD_PS/archive/refs/heads/master.zip)
