@@ -1,6 +1,15 @@
 # ad-lab
 Wanting to expand my knowledge of Windows Server and Active Directory environments, I followed a lab that creates two virtual machines with VirtualBox (Windows Server 2019 and a Windows 10 machine). I will create a new Active Directory forest using mydomain.com for the domain, and bulk create 1000 users with a PowerShell script. I also added a DHCP scope with the DHCP tools of Server Manager to assign IP addresses to our client machines in our internal network.
 
+## Skills Demonstrated
+- Server Manager
+- Active Directory Domain Services 
+- DNS and DHCP configuration
+- Internal VM networking (VirtualBox)
+- NAT and Routing with Routing and Remote Access Service
+- PowerShell automation for bulk user creation
+- Domain joining and client authentication testing
+
 # Software and Utilities Used
 * Oracle VirtualBox
 * PowerShell
@@ -73,7 +82,7 @@ Under ‘General”, go to Features and turn on bidirectional to allow copy/past
 
 * Now that Remote Access is installed and configured, we can install DHCP so our Windows 10 client machine can be assigned an IP address automatically from our pool. We will install the DHCP role which will allow our Windows 10 pc to obtain an IP address automatically from the DC.
 * Click on Add Features and Roles, and install DHCP server.
-* After it is installed, we will configure a DHCP scope for our addresses. A scope is a range of addresses that a DHCP server will delegate to members of specific networks. In our example, our DHCP server will hand out addresses in the 172.16.0.100-200 range, with a subnet mask of 255.255.255.0. I will set the lease time to 1 day. What the lease is depends on your use application for the DHCP scope. A local restaurant Wi-Fi should have a shorter duration lease because people are coming and going, compared to an office setting where the same people will be every day. Click on Tools > DHCP, then right-click on IPv4 and select New Scope.
+* After it is installed, we will configure a DHCP scope for our addresses. A scope is a range of addresses that a DHCP server will assign to members of specific networks. In our example, our DHCP server will hand out addresses in the 172.16.0.100-200 range, with a subnet mask of 255.255.255.0. I will set the lease time to 1 day. What the lease is depends on your use application for the DHCP scope. A local restaurant Wi-Fi should have a shorter duration lease because people are coming and going, compared to an office setting where the same people will be every day. Click on Tools > DHCP, then right-click on IPv4 and select New Scope.
 
 <img width="817" height="663" alt="image" src="https://github.com/user-attachments/assets/57ab2c88-5a5e-4437-a8ca-843279969ce7" />
 <img width="811" height="666" alt="image" src="https://github.com/user-attachments/assets/fe521238-a9a6-418e-b91e-8e58a7e7c96e" />
