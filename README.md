@@ -12,11 +12,11 @@ Wanting to expand my knowledge of Windows Server and Active Directory environmen
 
 # Software and Utilities Used
 * Oracle VirtualBox
-* PowerShell
 # Operating Systems and Tools Used
 * Windows Server 2019
 * Windows 10
 * PowerShell (script from: https://github.com/joshmadakor1/AD_PS/archive/refs/heads/master.zip)
+* Windows Command Prompt
 # Walkthrough:
 * We choose the Windows Server 2019 iso and load it into VirtualBox.
 <img width="975" height="481" alt="image" src="https://github.com/user-attachments/assets/355f8306-9e74-4fad-a016-e2739c34221b" />
