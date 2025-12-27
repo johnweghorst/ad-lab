@@ -1,4 +1,4 @@
-# ad-lab
+# Windows Server 2019, Active Directory VM Project Home Lab
 Wanting to expand my knowledge of Windows Server and Active Directory environments, I followed a lab that creates two virtual machines with VirtualBox (Windows Server 2019 and a Windows 10 machine). I will create a new Active Directory forest using mydomain.com for the domain, and bulk create 1000 users with a PowerShell script. I also added a DHCP scope with the DHCP tools of Server Manager to assign IP addresses to our client machines in our internal network.
 
 ## Skills Demonstrated
