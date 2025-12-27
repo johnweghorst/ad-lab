@@ -4,7 +4,7 @@ Wanting to expand my knowledge of Windows Server and Active Directory environmen
 ## Skills Demonstrated
 - Server Manager
 - Active Directory Domain Services 
-- DNS and DHCP configuration
+- DHCP configuration
 - Internal VM networking (VirtualBox)
 - NAT and Routing with Routing and Remote Access Service
 - PowerShell automation for bulk user creation
